@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    border: 10px solid grey;
+    margin: 15px;
+    background-color: darkgray;
+    flex-wrap: wrap;
+}
+
+.two-white-upper-left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.horizontal-white-standard {
+    height: 50px;
+    flex-grow: 20;
+    background-color: white;
+    border: 10px solid grey;
+    border-width: 0px 10px 10px 0px;
+}
+
+.horizontal-white-long {
+    height: 50px;
+    flex-grow: 50;
+    background-color: white;
+    border: 10px solid grey;
+    border-width: 0px 10px 10px 0px;
+}
+
+
+.tall-white{
+    height: 100px;
+    flex-grow: 1;
+    background-color: white;
+    border: 5px solid grey;
+}
+
+.left-white-yellow-column {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 470px;
+    border: 10px solid grey;
+    border-width: 0px 10px 0px 0px;
+    
+}
+
+.vertical-white-standard {
+    background-color: white;
+    flex-grow: 1;
+    border: 10px solid grey;
+    border-width: 0px 0px 10px 0px;
+}
+
+.vertical-white-long {
+    background-color: white;
+    flex-grow: 2;
+    border: 10px solid grey;
+    border-width: 0px 0px 10px 0px;
+}
+
+.vertical-yellow-long {
+    background-color: yellow;
+    flex-grow: 2;
+}
+
+.horizontal-white-long-solo {
+    width: 245px;
+    height: 60px;
+    border: 10px solid grey;
+    border-width: 5px 10px 5px 0px
+}
+
+.horizontal-white-long-solo {
+    background-color: white;
+}
+
+.horizontal-yellow-standard {
+    height: 600px;
+    width: 30%;
+    background-color: yellow;
+    border: 10px solid grey;
+    border-width: 0px 10px 10px 0px;
+    float: left;
+} 
+
