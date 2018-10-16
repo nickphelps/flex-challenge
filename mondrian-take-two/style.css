@@ -1,0 +1,190 @@
+body {
+    margin: 20px;
+
+
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    /* margin: 0 auto; */
+    /* border: 10px solid grey; */
+    /* margin: 15px; */
+    background-color: darkgray;
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-direction: row;
+}
+
+/*****************LEFT COLUMNS**********************/
+
+.far-left-third {
+    width: 33.3%;
+    height: 100%;
+    background-color: yellow;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*****************MIDDLE COLUMNS**********************/
+.middle-columns {
+    width: 33.3%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/**************LEFT MIDDLE COLUMN***************/
+.left-row {
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-yellow-skinny{
+    height: 10%;
+    width: 88%;
+    background-color: yellow;
+    border: 10px solid grey;
+    border-width: 10px 10px 0px 10px;
+}
+
+.top-yellow-square {
+    height: 20%;
+    width: 88%;
+    background-color: yellow;
+    border: 10px solid grey;
+    border-width: 10px 10px 0px 10px;
+}
+
+.two-white-square-container{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    width: 94%;
+    background-color: white;
+    border: 10px solid grey;
+    border-width: 10px 0px 0px 10px;
+
+}
+
+.tall-white-rectangle {
+    height: 92%;
+    width: 44%;
+    background-color: white;
+    border: 10px solid gray;
+    border-width: 0px 10px 10px 0px; 
+}
+
+.short-white-rectangle {
+    height: 10%;
+    width: 88%;
+    background-color: white;
+    border: 10px solid gray;
+    border-width: 0px 10px 0px 10px; 
+}
+
+.fat-blue-square{
+    height: 20%;
+    width: 88%;
+    background-color: blue;
+    border: 10px solid gray;
+    border-width: 10px 10px 0px 10px;
+}
+
+.fat-red-square {
+    height: 20%;
+    width: 88%;
+    background-color: red;
+    border: 10px solid gray;
+    border-width: 10px 10px 10px 10px;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~RIGHT ROW~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.right-row {
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+
+.fat-blue-square-right-row{
+    height: 20%;
+    width: 94%;
+    background-color: blue;
+    border: 10px solid gray;
+    border-width: 10px 10px 0px 0px;
+}
+
+.fat-red-square-right-row{
+    height: 20%;
+    width: 94%;
+    background-color: red;
+    border: 10px solid gray;
+    border-width: 10px 10px 10px 0px;
+}
+
+.short-white-rectangle-right-row {
+    height: 10%;
+    width: 94%;
+    background-color: white;
+    border: 10px solid gray;
+    border-width: 0px 10px 0px 0px; 
+}
+
+.two-white-square-container-right-row{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    border: 10px solid grey;
+    border-width: 10px 0px 0px 0px;
+}
+
+.tall-white-rectangle-right-row {
+    height: 92%;
+    width: 44%;
+    background-color: white;
+    border: 10px solid gray;
+    border-width: 0px 10px 10px 0px; 
+}
+
+.top-yellow-square-right-row {
+    height: 20%;
+    width: 94%;
+    background-color: yellow;
+    border: 10px solid grey;
+    border-width: 0px 10px 10px 0px;
+}
+
+.black-and-white-box-container {
+    height: 10%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*****************RIGHT COLUMNS**********************/
+
+.far-right-third {
+    width: 33.3%;
+    height: 100%;
+    background-color: green;
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
